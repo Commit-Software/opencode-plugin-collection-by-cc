@@ -11,7 +11,7 @@ interface Skill {
 
 const skills: Skill[] = [
   {
-    name: "simplify",
+    name: "code-simplifier-cc",
     description:
       "Simplify code for clarity, consistency, and maintainability while preserving functionality",
     prompt: `Simplify the code in this session for clarity, consistency, and maintainability while preserving all functionality. Focus on recently modified code sections unless instructed otherwise.

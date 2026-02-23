@@ -4,12 +4,21 @@ A collection of [OpenCode](https://opencode.ai) plugins that add useful slash co
 
 ## Installation
 
-**1. Install the package globally:**
+**1. Install the package:**
 
+From npm (if published):
 ```bash
 npm install -g opencode-plugins-cc
-# or
-bun add -g opencode-plugins-cc
+```
+
+From a public GitHub repo:
+```bash
+npm install -g github:commit-software/opencode-plugin-collection-by-cc
+```
+
+From a private GitHub repo (via SSH — requires repo access):
+```bash
+npm install -g git+ssh://git@github.com/commit-software/opencode-plugin-collection-by-cc.git
 ```
 
 **2. Add to your `opencode.json`:**
@@ -26,7 +35,7 @@ bun add -g opencode-plugins-cc
 
 ## Available Commands
 
-### `/simplify`
+### `/code-simplifier-cc`
 
 Simplify code for clarity, consistency, and maintainability — without changing what the code does.
 
@@ -35,9 +44,9 @@ Ported from Anthropic's official [code-simplifier Claude plugin](https://github.
 **Usage:**
 
 ```
-/simplify
-/simplify the authentication module
-/simplify and focus on reducing nested conditionals
+/code-simplifier-cc
+/code-simplifier-cc the authentication module
+/code-simplifier-cc and focus on reducing nested conditionals
 ```
 
 **What it does:**
